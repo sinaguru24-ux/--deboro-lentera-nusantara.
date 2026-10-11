@@ -1,0 +1,374 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT Deboro Lentera Nusantara</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #243447;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #10243a;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        header h2 {
+            color: #e2bd70;
+            font-size: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 18px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #e2bd70;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #10243a, #24506b);
+            color: white;
+            text-align: center;
+            padding: 110px 20px;
+        }
+
+        .hero h1 {
+            font-size: clamp(32px, 5vw, 52px);
+            margin-bottom: 20px;
+        }
+
+        .hero span {
+            color: #e2bd70;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: 0 auto 28px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #e2bd70;
+            color: #10243a;
+            padding: 13px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 75px 8%;
+        }
+
+        section h2 {
+            color: #10243a;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .about {
+            background: #f7f5ef;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(
+                auto-fit, minmax(220px, 1fr)
+            );
+            gap: 22px;
+            margin-top: 35px;
+        }
+
+        .card {
+            background: white;
+            padding: 28px;
+            border-radius: 8px;
+            border: 1px solid #e2e5e8;
+            box-shadow: 0 5px 20px #10243a0d;
+        }
+
+        .card h3 {
+            color: #a57c35;
+            margin-bottom: 12px;
+        }
+
+        .contact {
+            background: #f7f5ef;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 25px auto 0;
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin: 14px 0 6px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 13px;
+            border: 1px solid #ccd2d8;
+            border-radius: 5px;
+            font: inherit;
+        }
+
+        textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        button {
+            margin-top: 18px;
+            padding: 14px 24px;
+            background: #10243a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: #24506b;
+        }
+
+        footer {
+            background: #0b1a29;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+        }
+
+        @media (max-width: 650px) {
+            header {
+                justify-content: center;
+                text-align: center;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .hero {
+                padding: 75px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>DEBORO LENTERA NUSANTARA</h2>
+
+    <nav>
+        <a href="#home">Beranda</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#visi">Visi Misi</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h1>Selamat Datang di<br>
+        <span>PT Deboro Lentera Nusantara</span>
+    </h1>
+
+    <p>
+        Mitra usaha profesional yang mengutamakan integritas,
+        kualitas, pelayanan, dan kerja sama untuk masa depan
+        yang lebih baik.
+    </p>
+
+    <a href="#tentang" class="button">
+        Tentang Perusahaan
+    </a>
+</section>
+
+<section id="tentang">
+    <h2>Tentang Perusahaan</h2>
+
+    <p>
+        PT Deboro Lentera Nusantara berkomitmen membangun
+        hubungan bisnis yang profesional melalui kepercayaan,
+        komunikasi yang baik, dan orientasi pada kebutuhan mitra.
+        Kami terus berupaya menciptakan kerja sama yang
+        memberikan nilai positif dan berkelanjutan.
+    </p>
+</section>
+
+<section class="about" id="visi">
+    <div class="center">
+        <h2>Visi dan Misi</h2>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Visi</h3>
+            <p>
+                Menjadi perusahaan yang terpercaya,
+                profesional, dan mampu berkembang
+                secara berkelanjutan.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Misi</h3>
+            <p>
+                Memberikan pelayanan berkualitas,
+                menjaga integritas, dan membangun
+                kemitraan yang saling menguntungkan.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Komitmen</h3>
+            <p>
+                Mengutamakan tanggung jawab,
+                komunikasi yang transparan,
+                dan peningkatan kualitas kerja.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="layanan">
+    <div class="center">
+        <h2>Bidang Layanan</h2>
+        <p>
+            Berikut contoh kategori layanan yang dapat
+            disesuaikan dengan kegiatan usaha resmi perusahaan.
+        </p>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Solusi Bisnis</h3>
+            <p>
+                Mendukung kebutuhan usaha dan
+                pengembangan peluang kerja sama.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Kemitraan</h3>
+            <p>
+                Membangun hubungan profesional
+                dengan pelanggan dan mitra bisnis.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Dukungan Operasional</h3>
+            <p>
+                Mendukung proses kerja yang terencana,
+                efisien, dan berorientasi pada kualitas.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="kontak">
+    <div class="center">
+        <h2>Hubungi Kami</h2>
+        <p>
+            Silakan isi formulir untuk menyiapkan
+            pesan pertanyaan atau kerja sama.
+        </p>
+    </div>
+
+    <form id="contactForm">
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama"
+               placeholder="Masukkan nama Anda" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email"
+               placeholder="nama@email.com" required>
+
+        <label for="pesan">Pesan</label>
+        <textarea id="pesan"
+                  placeholder="Tuliskan pesan Anda"
+                  required></textarea>
+
+        <button type="submit">Kirim Pesan</button>
+    </form>
+</section>
+
+<footer>
+    <p>
+        &copy; <span id="tahun"></span>
+        PT Deboro Lentera Nusantara
+    </p>
+    <p>Profesional | Terpercaya | Kolaboratif</p>
+</footer>
+
+<script>
+    document.getElementById("tahun").textContent =
+        new Date().getFullYear();
+
+    document.getElementById("contactForm")
+        .addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const nama =
+                document.getElementById("nama").value.trim();
+
+            const email =
+                document.getElementById("email").value.trim();
+
+            const pesan =
+                document.getElementById("pesan").value.trim();
+
+            const tujuan = "email-perusahaan@example.com";
+
+            const subjek = encodeURIComponent(
+                "Pesan website dari " + nama
+            );
+
+            const isi = encodeURIComponent(
+                "Nama: " + nama +
+                "\nEmail: " + email +
+                "\nPesan: " + pesan
+            );
+
+            window.location.href =
+                "mailto:" + tujuan +
+                "?subject=" + subjek +
+                "&body=" + isi;
+        });
+</script>
+
+</body>
+</html>
