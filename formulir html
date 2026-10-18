@@ -1,4 +1,4 @@
-<!doctype html>
+ <!doctype html>
 <html lang="id">
 <head>
   <meta charset="utf-8">
@@ -52,8 +52,8 @@
   <footer>PT Deboro Lentera Nusantara · Data digunakan untuk menindaklanjuti permintaan Anda.</footer>
 <script>
   // Isi kedua nilai ini setelah membuat proyek Supabase dan deploy Edge Function.
-  const SUPABASE_URL = "https://ttymtvetmzezrgbzhmir.supabase.co";
-  const SUPABASE_ANON_KEY = "sb_publishable_X_EvPYZxN_BEp6xfvIRL8w_vz8fW_e5";
+  const SUPABASE_URL = "https://PROJECT-REF.supabase.co";
+  const SUPABASE_ANON_KEY = "PASTE_SUPABASE_PUBLISHABLE_OR_ANON_KEY_DI_SINI";
   const FUNCTION_URL = `${SUPABASE_URL}/functions/v1/submit-inquiry`;
 
   const form = document.getElementById('inquiry-form');
